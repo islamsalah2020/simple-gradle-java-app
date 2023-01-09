@@ -2,7 +2,7 @@ pipeline {
      agent { 
      docker {
       image 'gradle:7-jdk11'
-       args '-v /home/cloud_user/jenkins:/var/jenkins_home'
+       args '-v /root/jenkins:/var/jenkins_home'
     }
      }
      stages {
