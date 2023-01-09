@@ -22,8 +22,8 @@ pipeline {
         
         stage('Build') {
             steps {
-               
-                sh './gradle wrapper '
+               sh 'chmod 777 gradlew '
+                sh './gradlew build '
             }
         }
         
