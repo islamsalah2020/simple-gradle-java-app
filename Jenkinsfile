@@ -14,7 +14,7 @@ pipeline {
         
         stage('Build') {
             steps {
-               
+               sh 'gradle -v'
                 sh 'gradle build '
             }
         }
