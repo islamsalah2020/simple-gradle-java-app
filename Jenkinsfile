@@ -23,7 +23,7 @@ pipeline {
         stage('Build') {
             steps {
                
-                sh './gradlew build'
+                sh './gradle wrapper '
             }
         }
         
