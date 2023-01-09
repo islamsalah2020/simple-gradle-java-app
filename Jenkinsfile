@@ -14,8 +14,7 @@ pipeline {
         
         stage('Build') {
             steps {
-               sh 'gradle -v'
-                 sh 'echo $GRADLE_HOME'
+              
                 sh 'gradle build '
             }
         }
